@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LayoutForCourseView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="280dp"
+            android:text="Web Development Course"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="401dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="330dp"
+            android:text="@string/become_a_full_stack_web_devloper_with_just_one_training_internship_course_html_css_javascript_node_react_mongodb_build_real_projects"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="440dp"
+            android:text="Rating"
+            android:textColor="#FFDF00"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RatingBar
+            android:layout_width="235dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="440dp">
+
+        </RatingBar>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:text="Created By Amit Kulkarni"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="530dp"
+            android:text="Skills learnt- Javascript, HTML,CSS"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="560dp"
+            android:text="Languages- English"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="600dp"
+            android:text="₹500"
+            android:textColor="#118C4F"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/go_to_review"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="580dp"
+            android:text="View Reviews/ Add Review"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableEnd="@drawable/ic_baseline_shopping_cart_24"
+            android:layout_marginTop="680dp"
+            android:text="Buy Now"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="680dp"
+            android:drawableEnd="@drawable/ic_baseline_add_shopping_cart_24"
+            android:text="Add to wishlist"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
