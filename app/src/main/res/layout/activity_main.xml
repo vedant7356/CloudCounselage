@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgm"
+    android:background="@drawable/bgmcommon"
     tools:context=".MainActivity"
     tools:ignore="HardcodedText">
 
@@ -15,6 +15,7 @@
         android:layout_height="128dp"
         android:background="@drawable/custom_rectangle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:visibility="invisible"
         android:background="?attr/selectableItemBackground"
         android:padding="8dp"
         android:src="@drawable/ic_baseline_arrow_back_24"
@@ -39,9 +41,9 @@
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:letterSpacing="0.025"
-        android:text="Cloud Counselage"
+        android:text="Welcome to Knack"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/backB"
         app:layout_constraintTop_toTopOf="parent" />
@@ -120,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="EDIT PROFILE"
+                android:text="VIEW PROFILE"
                 android:textColor="@color/teal_700"
                 app:layout_constraintBottom_toBottomOf="@+id/todoB"
                 app:layout_constraintStart_toEndOf="@+id/todoB" />
@@ -204,7 +206,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/practiceCard"
+            android:id="@+id/industry_field"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"
@@ -370,7 +372,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/settingsCard"
+            android:id="@+id/gottoentre"
             android:layout_width="248dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"

@@ -3,4 +3,68 @@
     <string name="become_a_full_stack_web_devloper_with_just_one_training_internship_course_html_css_javascript_node_react_mongodb_build_real_projects">Become a Full-Stack Web Devloper with just ONE training internship course.HTML,CSS,Javascript,Node,React,MongoDB, build real projects</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_message">Save this Training ?</string>
+    <string name="dialog_title">Cloud Counselage</string>
+
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan in nisl nisi scelerisque eu. Semper feugiat nibh sed pulvinar proin gravida. Quisque sagittis purus sit amet. Faucibus turpis in eu mi bibendum. Quisque egestas diam in arcu cursus euismod quis viverra. Dictumst quisque sagittis purus sit amet volutpat consequat. Tristique risus nec feugiat in. Nunc id cursus metus aliquam. Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo. Leo integer malesuada nunc vel. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Pulvinar etiam non quam lacus suspendisse faucibus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Vehicula ipsum a arcu cursus vitae congue. Ultrices dui sapien eget mi proin sed libero enim. Fermentum iaculis eu non diam phasellus. Vitae semper quis lectus nulla. Eget aliquet nibh praesent tristique magna sit amet purus.</string>
+    <string name="location">85-c, Mittal Tower, 8th Floor, Nariman Point, Nariman Point</string>
+    <string name="desc">This Summer we Bring you once in a Lifetime opportunity to Explore one of the Biggest "IT MNC's" of India "Infoysy" and get to know the Working Culture and Technologies </string>
+    <string name="buttonText">Add</string>
+    <string name="placeholder">type here..</string>
+
+    <string name="MGT2">
+        <br>
+            For individual looking for a step by step guide and templates to develop a Business Plan
+
+
+        </br>
+    </string>
+
+    <string name="MGT">
+        <br>
+            For individuals looking for an easy-to-use practical guide for starting a business,
+            our online template-based business solution provides a roadmap to succeed in their business.
+
+
+        </br>
+    </string>
+
+    <string name="con1">
+        <br>
+            Pre-Designed business process and standard operating procedures(SOPs)
+            for various business activites like recruitment,Team Management, budgeting, etc with consulting.
+
+        </br>
+    </string>
+    <string name="disco">
+        <br>
+            Design of Business Process and standard operating procedures(SOPs)for various Business activites like
+            recruitment, Team Management , budgeting, etc with consulting and delivery .
+
+        </br>
+    </string>
+    <string name="disco1">
+        <br>
+            We support small enterprises by providing tailored services/ processes
+            and managing their annual, quarterly and monthly management activities.
+
+        </br>
+    </string>
+    <string name="disco2">
+        <br>
+            like goal setting, budgeting, resource planning,hiring, employee management, project reviews, management reporting
+
+        </br>
+    </string>
+
+    <string name="question">Your colleague is sick but you have a deadline. You will,</string>
+    <string name="answera">Tell your client to adjust the deadline</string>
+    <string name="answerb">Work on his module</string>
+    <string name="answerc">Ship the product without his module</string>
+    <string name="finish">Finish</string>
+    <string name="article1_link">https://www.forbes.com/sites/forbescoachescouncil/2017/10/25/15-ways-you-can-find-the-confidence-to-speak-up/?sh=539d5b3317a7</string>
+    <string name="article2_link">https://m.dailygood.org/story/1366/10-tips-for-effective-communication-liz-kingsnorth/</string>
+    <string name="article3_link">https://asana.com/resources/constructive-criticism</string>
+    <string name="article4_link">https://englishlive.ef.com/blog/career-english/write-perfect-professional-email-english-5-steps/</string>
+    <string name="book_session">Book a session</string>
 </resources>

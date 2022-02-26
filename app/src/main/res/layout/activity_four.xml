@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityFour">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="GET ELITE BUSINESS ADVISORS TO WORK FOR YOUR BUSINESS"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Tailored Services and Process Design"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:src="@drawable/s1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Market Research and Analysis"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:src="@drawable/s2"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Monthly Management Services"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:src="@drawable/s3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Quarterly Management Services"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:src="@drawable/s4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="@string/disco1"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="@string/disco2"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

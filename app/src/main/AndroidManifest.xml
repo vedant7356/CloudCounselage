@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firstfour">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,96 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstFour">
+        <activity
+            android:name=".JitsiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".ResourcesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoftSkillDev"
+            android:exported="false" />
+        <activity
+            android:name=".pdfthree"
+            android:exported="false" />
+        <activity
+            android:name=".pdftwo"
+            android:exported="false" />
+        <activity
+            android:name=".pdfone"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySix"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFive"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFour"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThree"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityOne"
+            android:exported="false" />
+        <activity
+            android:name=".EntrepreneurshipDev"
+            android:exported="false" />
+        <activity
+            android:name=".WorkshopRegisteration"
+            android:exported="false" />
+        <activity
+            android:name=".IndustrialVisit"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoTask"
+            android:exported="false" />
+        <activity
+            android:name=".WorkShop"
+            android:exported="false" />
+        <activity
+            android:name=".MyPurchases"
+            android:exported="false" />
+        <activity
+            android:name=".MyWIshlist"
+            android:exported="false" />
+        <activity
+            android:name=".MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Registeration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Intro_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ExploreMoreCourses"
             android:exported="false" />
@@ -29,13 +121,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

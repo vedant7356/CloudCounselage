@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgmcommon"
     tools:context=".LayoutForCourseView">
 
     <RelativeLayout
@@ -11,6 +12,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/exoplaya"
             android:layout_width="match_parent"
             android:layout_height="270dp"
             tools:layout_editor_absoluteX="0dp"
@@ -19,21 +21,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="280dp"
-            android:text="Web Development Course"
+            android:text="Web Development Internship"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold">
 
         </TextView>
 
         <TextView
-            android:layout_width="401dp"
-            android:layout_height="match_parent"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="330dp"
             android:text="@string/become_a_full_stack_web_devloper_with_just_one_training_internship_course_html_css_javascript_node_react_mongodb_build_real_projects"
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18sp">
 
@@ -52,10 +58,13 @@
         </TextView>
 
         <RatingBar
+            android:id="@+id/this_is_rating"
             android:layout_width="235dp"
             android:layout_height="45dp"
+            android:saveEnabled="true"
             android:layout_marginLeft="135dp"
-            android:layout_marginTop="440dp">
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="135dp">
 
         </RatingBar>
 
@@ -128,8 +137,8 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:drawableEnd="@drawable/ic_baseline_shopping_cart_24"
             android:layout_marginTop="680dp"
+            android:drawableEnd="@drawable/ic_baseline_shopping_cart_24"
             android:text="Buy Now"
             android:textSize="18sp"
             android:textStyle="bold">
@@ -144,7 +153,8 @@
             android:drawableEnd="@drawable/ic_baseline_add_shopping_cart_24"
             android:text="Add to wishlist"
             android:textSize="18sp"
-            android:textStyle="bold">
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_baseline_add_shopping_cart_24">
 
         </Button>
 

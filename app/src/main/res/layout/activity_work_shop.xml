@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkShop">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FE5FCC">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="#DE6E35"
+            app:collapsedTitleTextColor="@color/white"
+            app:expandedTitleTextAppearance="@style/expandedBarTextStyle"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Workshops and Visits">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/custom_rectangle"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:text="Explore the IT world"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Workshops, Webinars ,Visits and lots more"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="123dp"
+                        android:layout_height="85dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="125dp"
+                        android:layout_marginRight="125dp"
+                        android:layout_marginBottom="45dp"
+                        android:background="@drawable/logoimg" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgmcommon"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="6dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorEnabled="true"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:text="Companies with Us"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            android:src="@drawable/logoimg"
+
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_weight="1"
+            android:src="@drawable/social_facebook"
+
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_weight="1"
+            android:layout_height="96dp"
+            android:src="@drawable/social_google"
+
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:text="Our Top Speakers"
+            android:gravity="center_horizontal">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/amit"
+
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Mr.Amit Kulkarni \n \n Specialised in Web Security.\nWebinars based on System Security">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/samvid"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Mr.Samvid Patil \n \n Specialised in Android Development and Testing.\nWebinars based on Android Development">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/shree"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Mr.Shreerang Patil \n \n Specialised in Web and Android.\nWebinars based on Full Stack Software Development">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+            <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/profile_image"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:src="@drawable/ic_person"-->
+<!--                app:civ_border_width="2dp"-->
+<!--                app:civ_border_color="#FF000000"/>-->
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/profile_image"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/ic_person"-->
+<!--                app:civ_border_width="2dp"-->
+<!--                app:civ_border_color="#FF000000"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Webinars">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/exoplaya_web"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soft Skills Webinar"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Live webinar by Mr.Atul Khurrana based on soft skills development"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="LIVE"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/colorRed"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Upcoming Workshops">
+
+        </TextView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="6dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/slider_others"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorEnabled="true"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/reg_here_wrk"
+            android:layout_width="300dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="wrap_content"
+            android:text="Register Here For Workshop !"
+            android:textSize="20sp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="Upcoming Visits">
+
+        </TextView>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/eventCardLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        app:cardCornerRadius="12dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/card_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="230dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/info">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/eventTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal|bottom"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:text="Infosys Visit 2022"
+                                android:textColor="@color/white"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:elevation="5dp"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="70dp"
+                                    android:layout_gravity="bottom"
+                                    android:background="@color/white"
+                                    android:orientation="vertical"
+                                    android:weightSum="10">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="7.5"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+
+                                            android:id="@+id/day"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="25"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/textBlue"
+                                            android:textSize="25sp"
+                                            android:textStyle="bold">
+
+                                        </TextView>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="2.5"
+                                        android:background="@color/lightBlue"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/month"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="APR"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/textBlue"
+                                            android:textSize="13sp">
+
+                                        </TextView>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:layout_weight="5"
+                            android:orientation="horizontal"
+                            android:paddingVertical="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_baseline_location_on_24">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="Mumbai,India"
+                                android:textColor="@color/deepBlue"
+                                android:textSize="20sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="5"
+                            android:gravity="end|center"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/count_background"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:id="@+id/count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="+135"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/textBlue"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:maxLines="1"
+                                android:text="are interested"
+                                android:textColor="@color/white">
+
+                            </TextView>
+
+                            <ImageButton
+                                android:id="@+id/travel"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_baseline_arrow_circle_right_24"
+                                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                                android:clickable="true"
+                                />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
