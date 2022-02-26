@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023334490640",
+    "firebase_url": "https://cloudcounselage-a4e03-default-rtdb.firebaseio.com",
+    "project_id": "cloudcounselage-a4e03",
+    "storage_bucket": "cloudcounselage-a4e03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023334490640:android:533c3a577da797c5ce6095",
+        "android_client_info": {
+          "package_name": "com.example.firstfour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023334490640-pq4mc19nbdcf69bpub6jen2rbl2p094q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstfour",
+            "certificate_hash": "79ba48c1b6e0a15ea0245bc3ce977af8479cbe91"
+          }
+        },
+        {
+          "client_id": "1023334490640-qnok2i0uf9om3qgb8tfd4hg2bpbumc12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlNGnFsvq6tjdqNdCLQeTEg1LY8LvurNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023334490640-qnok2i0uf9om3qgb8tfd4hg2bpbumc12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
