@@ -16,9 +16,6 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         begin_quiz = findViewById(R.id.begin_quiz);
         begin_quiz.setOnClickListener(new View.OnClickListener() {
             @Override

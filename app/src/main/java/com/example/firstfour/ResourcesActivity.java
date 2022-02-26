@@ -42,9 +42,6 @@ public class ResourcesActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rv);
         iv = view.findViewById(R.id.article_trigger);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

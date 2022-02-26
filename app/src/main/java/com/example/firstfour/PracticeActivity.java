@@ -24,9 +24,6 @@ public class PracticeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         book_meeting = (Button) findViewById(R.id.book_meeting);
 
         book_meeting.setOnClickListener(new View.OnClickListener() {
