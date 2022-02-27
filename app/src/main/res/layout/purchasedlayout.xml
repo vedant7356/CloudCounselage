@@ -29,7 +29,7 @@
             android:layout_marginLeft="16dp" />
 
         <TextView
-            android:id="@+id/fullname"
+            android:id="@+id/title_purchase"
             android:layout_width="192dp"
             android:layout_height="23dp"
             android:layout_marginStart="16dp"
@@ -50,10 +50,11 @@
             android:text="Author:"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_ac" />
+            app:layout_constraintTop_toBottomOf="@+id/title_ac"
+            android:layout_marginLeft="16dp" />
 
         <TextView
-            android:id="@+id/religion"
+            android:id="@+id/author_purchase"
             android:layout_width="186dp"
             android:layout_height="24dp"
             android:layout_marginStart="16dp"
@@ -63,7 +64,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/author_ac"
-            app:layout_constraintTop_toBottomOf="@+id/fullname" />
+            app:layout_constraintTop_toBottomOf="@+id/title_purchase" />
 
         <TextView
             android:id="@+id/rate_ac"
@@ -81,7 +82,7 @@
             app:layout_constraintVertical_bias="0.071" />
 
         <Button
-            android:id="@+id/buynow_ac"
+            android:id="@+id/buynow_ac_purchase"
             android:layout_width="221dp"
             android:layout_height="49dp"
             android:layout_marginTop="16dp"
@@ -94,10 +95,11 @@
             app:layout_constraintHorizontal_bias="0.093"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rate_ac"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_24" />
 
         <TextView
-            android:id="@+id/age"
+            android:id="@+id/rating_purchase"
             android:layout_width="188dp"
             android:layout_height="25dp"
             android:layout_marginStart="16dp"
@@ -105,15 +107,16 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
             android:text="TextView"
+            app:drawableStartCompat="@drawable/ic_baseline_star_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.029"
             app:layout_constraintStart_toEndOf="@+id/rate_ac"
-            app:layout_constraintTop_toBottomOf="@+id/religion"
+            app:layout_constraintTop_toBottomOf="@+id/author_purchase"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/person_pic"
+            android:id="@+id/person_pic_purchase"
             android:layout_width="96dp"
             android:layout_height="109dp"
             app:layout_constraintBottom_toBottomOf="parent"

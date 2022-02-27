@@ -3,12 +3,100 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.2798913043478261" />
-        <entry key="app/src/main/res/layout/activity_soft_skill_dev.xml" value="0.2798913043478261" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2295" />
+        <entry key="app/src/main/res/drawable/answer_selected.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/arrow_forward_black.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/btn.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/buttons_background.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/count_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/custom_app_bar_background.xml" value="0.129" />
+        <entry key="app/src/main/res/drawable/custom_rectangle.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_emoji_people_24.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_school_24.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2295" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_email_white_24dp.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/ic_google.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2295" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/ic_security.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/input_bg.xml" value="0.181" />
+        <entry key="app/src/main/res/drawable/round_cancle_btn.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/time_background.xml" value="0.112" />
+        <entry key="app/src/main/res/layout/activity_course_main_menu.xml" value="0.182370820668693" />
+        <entry key="app/src/main/res/layout/activity_entrepreneurship_dev.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_explore_more_courses.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_five.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_four.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_give_rating.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/activity_industrial_visit.xml" value="0.1519756838905775" />
+        <entry key="app/src/main/res/layout/activity_internships.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_jitsi.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_layout_for_comments.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/activity_layout_for_course_view.xml" value="0.24295774647887325" />
+        <entry key="app/src/main/res/layout/activity_layout_for_reviews.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_my_cart.xml" value="0.203125" />
+        <entry key="app/src/main/res/layout/activity_my_purchases.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_my_wishlist.xml" value="0.203125" />
+        <entry key="app/src/main/res/layout/activity_one.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_pdfone.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_pdfthree.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_pdftwo.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_practice.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_quiz_question.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_registeration.xml" value="0.16757246376811594" />
+        <entry key="app/src/main/res/layout/activity_resources.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_six.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_soft_skill_dev.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_three.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_to_do_task.xml" value="0.11503623188405797" />
+        <entry key="app/src/main/res/layout/activity_two.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_work_shop.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_workshop_registeration.xml" value="0.13994565217391305" />
+        <entry key="app/src/main/res/layout/addtowishlist.xml" value="0.203125" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/display_courses.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_by_alphabet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_by_date.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_cart_added.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/fragment_purchased.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/fragment_wishlist.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/internship_lay.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layoutaddtocart.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/list_group.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/list_group_chiild.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/list_group_header.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/purchasedlayout.xml" value="0.32038834951456313" />
+        <entry key="app/src/main/res/layout/row_users.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/saved_internships_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/screen.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/slider_layout.xml" value="0.23793103448275862" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.27589743589743587" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.3890625" />
+        <entry key="app/src/main/res/menu/filter_menu.xml" value="0.278125" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.24259259259259258" />
+        <entry key="app/src/main/res/menu/records_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

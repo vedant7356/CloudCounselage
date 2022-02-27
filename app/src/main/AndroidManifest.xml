@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstFour">
         <activity
+            android:name=".CourseMainMenu"
+            android:exported="false" />
+        <activity
             android:name=".JitsiActivity"
             android:exported="false" />
         <activity

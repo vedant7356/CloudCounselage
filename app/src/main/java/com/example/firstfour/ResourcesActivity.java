@@ -50,9 +50,6 @@ public class ResourcesActivity extends AppCompatActivity {
             }
         });
 
-        this.setSupportActionBar(toolbar);
-        this.getSupportActionBar().setTitle("");
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
 

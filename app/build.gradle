@@ -57,5 +57,7 @@ dependencies {
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     implementation ('org.jitsi.react:jitsi-meet-sdk:3.+') { transitive = true }
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.github.nirwannursabda:expandable-navigation:0.1.2'
 
 }

@@ -75,7 +75,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="500dp"
             android:text="Created By Amit Kulkarni"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold">
 
@@ -87,7 +87,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="530dp"
             android:text="Skills learnt- Javascript, HTML,CSS"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold">
 
@@ -100,7 +100,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="560dp"
             android:text="Languages- English"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold">
 
@@ -112,7 +112,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="600dp"
             android:text="₹500"
-            android:textColor="#118C4F"
+            android:textColor="#CEFA05"
             android:textSize="50sp"
             android:textStyle="bold">
 

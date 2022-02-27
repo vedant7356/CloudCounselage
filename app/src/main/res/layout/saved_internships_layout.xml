@@ -33,19 +33,14 @@
             android:id="@+id/idIVCourseImage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_margin="10dp"
             android:contentDescription="@string/app_name"
             android:padding="5dp"
             android:src="@drawable/webdev" />
 
         <!--Text View to display Course Name-->
         <TextView
-            android:id="@+id/idTVCourseName"
+            android:id="@+id/idTVCourseName_saved"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -59,10 +54,10 @@
         <!--Text VIew to display COurse Rating-->
         <!--Image used in present in drawable folder-->
         <TextView
-            android:id="@+id/idTVCourseRating"
+            android:id="@+id/idTVCourseRating_saved"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCourseName"
+            android:layout_below="@id/idTVCourseName_saved"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/idIVCourseImage"
@@ -70,16 +65,14 @@
             android:text="Course Rating"
             app:drawableStartCompat="@drawable/ic_baseline_star_24" />
 
-        <TextView
-            android:id="@+id/date_course"
-            android:layout_width="match_parent"
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCourseRating"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_toEndOf="@id/idIVCourseImage"
-            android:drawablePadding="2dp"
-            android:text="Course Date"
-            app:drawableStartCompat="@drawable/ic_baseline_calendar_month_24" />
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="75dp"
+            android:text="Remove from Saved"
+            android:textSize="10sp">
+
+        </Button>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

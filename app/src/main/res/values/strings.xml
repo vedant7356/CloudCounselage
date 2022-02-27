@@ -67,4 +67,14 @@
     <string name="article3_link">https://asana.com/resources/constructive-criticism</string>
     <string name="article4_link">https://englishlive.ef.com/blog/career-english/write-perfect-professional-email-english-5-steps/</string>
     <string name="book_session">Book a session</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 </resources>
