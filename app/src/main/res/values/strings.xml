@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstFour</string>
+    <string name="app_name">Knack</string>
     <string name="become_a_full_stack_web_devloper_with_just_one_training_internship_course_html_css_javascript_node_react_mongodb_build_real_projects">Become a Full-Stack Web Devloper with just ONE training internship course.HTML,CSS,Javascript,Node,React,MongoDB, build real projects</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -10,7 +10,7 @@
     <string name="location">85-c, Mittal Tower, 8th Floor, Nariman Point, Nariman Point</string>
     <string name="desc">This Summer we Bring you once in a Lifetime opportunity to Explore one of the Biggest "IT MNC's" of India "Infoysy" and get to know the Working Culture and Technologies </string>
     <string name="buttonText">Add</string>
-    <string name="placeholder">type here..</string>
+    <string name="placeholder">Type your tasks for today</string>
 
     <string name="MGT2">
         <br>

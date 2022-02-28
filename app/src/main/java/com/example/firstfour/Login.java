@@ -99,7 +99,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, " Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),Login.class));
+                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         }
                         else {
                             Toast.makeText(Login.this, "You are not REGISTERED!, Please do register in our APP first ", Toast.LENGTH_SHORT).show();
@@ -195,7 +195,7 @@ public class Login extends AppCompatActivity implements GoogleApiClient.OnConnec
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        Toast.makeText(this, "Connection Error", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Connection Error", Toast.LENGTH_SHORT).show();
     }
 
     @Override

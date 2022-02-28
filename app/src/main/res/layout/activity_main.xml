@@ -127,16 +127,16 @@
                 app:layout_constraintBottom_toBottomOf="@+id/todoB"
                 app:layout_constraintStart_toEndOf="@+id/todoB" />
 
-            <ImageButton
-                android:id="@+id/profileB"
-                android:layout_width="53dp"
-                android:layout_height="59dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileB_intern"
+                android:layout_width="89dp"
+                android:layout_height="89dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginRight="05dp"
                 android:background="?attr/selectableItemBackground"
                 android:padding="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/myimage"
+                android:src="@drawable/ved"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -313,7 +313,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/interestsCard"
+            android:id="@+id/about_us"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_margin="8dp"

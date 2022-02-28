@@ -86,7 +86,7 @@ public class Intro_Activity extends AppCompatActivity {
         btnGetStarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(), Login.class);
                 startActivity(mainActivity);
                 savePrefsData();
                 finish();

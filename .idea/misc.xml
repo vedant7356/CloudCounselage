@@ -9,9 +9,12 @@
         <entry key="app/src/main/res/drawable/btn.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.181" />
         <entry key="app/src/main/res/drawable/buttons_background.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/buttonshapewhitebg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/buttonstyleithgradient.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/count_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom_app_bar_background.xml" value="0.129" />
         <entry key="app/src/main/res/drawable/custom_rectangle.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/gradientbackground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.112" />
@@ -31,23 +34,27 @@
         <entry key="app/src/main/res/drawable/input_bg.xml" value="0.181" />
         <entry key="app/src/main/res/drawable/round_cancle_btn.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/time_background.xml" value="0.112" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.2188183807439825" />
         <entry key="app/src/main/res/layout/activity_course_main_menu.xml" value="0.182370820668693" />
         <entry key="app/src/main/res/layout/activity_entrepreneurship_dev.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_explore_more_courses.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_five.xml" value="0.15489130434782608" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_four.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_generate_certificate.xml" value="0.15881458966565348" />
         <entry key="app/src/main/res/layout/activity_give_rating.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/activity_guidance_and_assistance.xml" value="0.1519756838905775" />
         <entry key="app/src/main/res/layout/activity_industrial_visit.xml" value="0.1519756838905775" />
-        <entry key="app/src/main/res/layout/activity_internships.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_internships.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_jitsi.xml" value="0.14402173913043478" />
         <entry key="app/src/main/res/layout/activity_layout_for_comments.xml" value="0.24365942028985507" />
         <entry key="app/src/main/res/layout/activity_layout_for_course_view.xml" value="0.24295774647887325" />
         <entry key="app/src/main/res/layout/activity_layout_for_reviews.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/layout/activity_live_internships.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/activity_my_cart.xml" value="0.203125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18024691358024691" />
+        <entry key="app/src/main/res/layout/activity_my_cart.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_my_purchases.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_my_wishlist.xml" value="0.203125" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.15489130434782608" />
@@ -59,12 +66,14 @@
         <entry key="app/src/main/res/layout/activity_quiz_question.xml" value="0.14402173913043478" />
         <entry key="app/src/main/res/layout/activity_registeration.xml" value="0.16757246376811594" />
         <entry key="app/src/main/res/layout/activity_resources.xml" value="0.14402173913043478" />
+        <entry key="app/src/main/res/layout/activity_saved_internships.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_six.xml" value="0.15489130434782608" />
         <entry key="app/src/main/res/layout/activity_soft_skill_dev.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_three.xml" value="0.15489130434782608" />
         <entry key="app/src/main/res/layout/activity_to_do_task.xml" value="0.11503623188405797" />
         <entry key="app/src/main/res/layout/activity_two.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/activity_view_profile_section.xml" value="0.2302839116719243" />
         <entry key="app/src/main/res/layout/activity_work_shop.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_workshop_registeration.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/addtowishlist.xml" value="0.203125" />
@@ -77,7 +86,7 @@
         <entry key="app/src/main/res/layout/fragment_purchased.xml" value="0.24864130434782608" />
         <entry key="app/src/main/res/layout/fragment_wishlist.xml" value="0.24864130434782608" />
         <entry key="app/src/main/res/layout/internship_lay.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/layoutaddtocart.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/layoutaddtocart.xml" value="0.18911917098445596" />
         <entry key="app/src/main/res/layout/list_group.xml" value="0.24365942028985507" />
         <entry key="app/src/main/res/layout/list_group_chiild.xml" value="0.13627152988855115" />
         <entry key="app/src/main/res/layout/list_group_header.xml" value="0.13627152988855115" />
@@ -85,7 +94,7 @@
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.13627152988855115" />
         <entry key="app/src/main/res/layout/purchasedlayout.xml" value="0.32038834951456313" />
         <entry key="app/src/main/res/layout/row_users.xml" value="0.14402173913043478" />
-        <entry key="app/src/main/res/layout/saved_internships_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/saved_internships_layout.xml" value="0.22054380664652568" />
         <entry key="app/src/main/res/layout/screen.xml" value="0.3890625" />
         <entry key="app/src/main/res/layout/slider_layout.xml" value="0.23793103448275862" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.27589743589743587" />
@@ -93,6 +102,8 @@
         <entry key="app/src/main/res/menu/filter_menu.xml" value="0.278125" />
         <entry key="app/src/main/res/menu/main.xml" value="0.24259259259259258" />
         <entry key="app/src/main/res/menu/records_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

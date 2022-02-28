@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstFour">
         <activity
+            android:name=".SavedInternships"
+            android:exported="false" />
+        <activity
+            android:name=".LiveInternships"
+            android:exported="false" />
+        <activity
+            android:name=".GuidanceAndAssistance"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".GenerateCertificate"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProfileSection"
+            android:exported="false" />
+        <activity
             android:name=".CourseMainMenu"
             android:exported="false" />
         <activity

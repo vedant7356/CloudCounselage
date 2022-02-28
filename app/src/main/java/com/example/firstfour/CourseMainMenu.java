@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -16,6 +17,9 @@ import android.webkit.WebView;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
+import com.google.android.exoplayer2.MediaItem;
+import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
@@ -35,6 +39,7 @@ public class CourseMainMenu extends AppCompatActivity{
     HashMap<MenuModel, List<MenuModel>> childList = new HashMap<>();
     ExpandableNavigationListView expandableNavigationListView;
     DrawerLayout drawerLayout;
+    String url="https://firebasestorage.googleapis.com/v0/b/cloudcounselage-a4e03.appspot.com/o/Y2Mate.is%20-%20(NEW%20Course%20Trailer)%20Web%20Design%20Becoming%20a%20Professional-tcbh0yqBgns-1080p-1644604251925.mp4?alt=media&token=34417005-13eb-4a9a-a998-c76a0a09c022";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +81,6 @@ public class CourseMainMenu extends AppCompatActivity{
                     @Override
                     public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
                        expandableNavigationListView.setSelected(groupPosition);
-
                         return false;
                     }
                 })
@@ -85,11 +89,27 @@ public class CourseMainMenu extends AppCompatActivity{
                     public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                         expandableNavigationListView.setSelected(groupPosition, childPosition);
 
+                        if (groupPosition==5 && childPosition==0) {
+
+                            Toast.makeText(CourseMainMenu.this, "Hi", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(),GenerateCertificate.class));
+                        }
                         return false;
                     }
                 });
 
         expandableNavigationListView.setSelected(0);
+
+
+        SimpleExoPlayer simpleExoPlayer=new SimpleExoPlayer.Builder(this).build();
+
+        PlayerView playerView=findViewById(R.id.exoplaya_play_one);
+
+        playerView.setPlayer(simpleExoPlayer);
+        MediaItem mediaItem=MediaItem.fromUri(url);
+        simpleExoPlayer.addMediaItem(mediaItem);
+
+        simpleExoPlayer.prepare();
 
 
 

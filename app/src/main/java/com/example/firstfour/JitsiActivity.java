@@ -33,9 +33,6 @@ public class JitsiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jitsi);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         URL serverURL;
         try {
             // When using JaaS, replace "https://meet.jit.si" with the proper serverURL

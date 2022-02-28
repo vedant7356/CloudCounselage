@@ -12,16 +12,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.navigation.NavigationView;
 
 public class Internships extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     CardView cd1;
-    TextView explore_more;
+    TextView explore_more,view_certificates;
     AlertDialog.Builder builder;
     private DrawerLayout mDrawerLayout;
+    MaterialButton m1,m2;
+    ImageButton back;
 
 
 
@@ -31,6 +35,42 @@ public class Internships extends AppCompatActivity implements NavigationView.OnN
         setContentView(R.layout.activity_internships);
         builder = new AlertDialog.Builder(this);
 
+
+        m1=(MaterialButton)findViewById(R.id.todoB_live_intern);
+        m2=(MaterialButton)findViewById(R.id.editProfileB_saved);
+        back=(ImageButton)findViewById(R.id.backB);
+        view_certificates=(TextView)findViewById(R.id.view_certi);
+
+        view_certificates.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),GenerateCertificate.class));
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+            }
+        });
+
+        m1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),LiveInternships.class));
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+            }
+        });
+
+        m2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),SavedInternships.class));
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+            }
+        });
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.intern_drawer);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_intern);

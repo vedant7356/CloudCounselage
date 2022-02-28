@@ -111,7 +111,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/todoB"
+                android:id="@+id/todoB_live_intern"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -121,7 +121,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/editProfileB"
+                android:id="@+id/editProfileB_saved"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,20 +131,19 @@
                 android:drawableRight="@drawable/ic_baseline_bookmark_add_24"
                 android:text="saved"
                 android:textColor="@color/teal_700"
-                app:layout_constraintBottom_toBottomOf="@+id/todoB"
-                app:layout_constraintStart_toEndOf="@+id/todoB" />
+                app:layout_constraintBottom_toBottomOf="@+id/todoB_live_intern"
+                app:layout_constraintStart_toEndOf="@+id/todoB_live_intern" />
 
-            <ImageButton
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profileB"
-                android:layout_width="73dp"
-                android:layout_height="73dp"
+                android:layout_width="69dp"
+                android:layout_height="69dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:adjustViewBounds="true"
                 android:background="?attr/selectableItemBackground"
                 android:padding="8dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/myimage"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ved"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -463,6 +462,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:layout_constraintVertical_bias="0.274" />
+
+        <TextView
+            android:id="@+id/view_certi"
+            android:layout_width="386dp"
+            android:layout_height="51dp"
+            android:text="View Your Certificate -->"
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/explore_more"
+            app:layout_constraintVertical_bias="0.274" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
